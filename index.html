@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+    <!---------------------------------------custom css file link---------------------------------------->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!---------------------------------Font Awesome link------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    
+    <title>Rahul Shet Bolte</title>
+</head>
+
+<body>
+
+   <!-- ------------------------------header section starts  ------------------------------------>
+
+<header class="d-flex align-items-center justify-content-between">
+
+    <a href="#" class="logo"><i class="fas fa-utensils"></i>ReshmaCaterers.</a>
+
+    <nav class="navbarmy">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+<!-- ----------------------------------header section ends-------------------------------------->
+
+
+
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper mySwiper home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>spicy noodles</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>fried chicken</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>our special dish</span>
+                    <h3>hot pizza</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">order now</a>
+                </div>
+                <div class="image">
+                    <img src="images/home-img-3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> our dishes </h3>
+    <h1 class="heading"> popular dishes </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/rice.jpg" alt="">
+            <h3>Starters</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+          
+            <a href="#" class="btn" id="myBtn" data-bs-toggle="modal" data-bs-target="#menuModal">Check Options</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-2.png" alt="">
+            <h3>Veg Menu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+           
+            <a href="#" class="btn">Check Options</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-3.png" alt="">
+            <h3>NON-VEG MENU</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            <!-- <span>$15.99</span> -->
+            <a href="#" class="btn">Check Options</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-4.png" alt="">
+            <h3>Rice/Bread</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+           
+            <a href="#" class="btn">Check Options</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-5.png" alt="">
+            <h3>Chinese</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+           
+            <a href="#" class="btn">Check Options</a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="images/dish-6.png" alt="">
+            <h3>Dessert</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+           
+            <a href="#" class="btn">Check Options</a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- dishes section ends -->
+
+
+
+<!-----------------------------check options model started here---------------------------------------------->
+<div class="modal" id="menuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+        <div class="modal-header">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search Veg options">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+           <div class="row">
+             <div class="col"><img src="images/veg1menu.jpg" style="height:60px;width:56px;" alt=""></div>
+             <div class="col">Achari Paneer Tikka</div>
+             <div class="col"><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"></div>
+           </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+  </div>
+</div>
+<!-----------------------------check options model ended here---------------------------------------------->
+
+
+
+
+ <!-- order model started here -->
+ <div class="modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style = "background-color: darkslategrey;
+        ">
+          <h3 class="modal-title" style="color: aliceblue;font-size: x-large;font-weight: bolder;">Order Details</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <form action="" id="formorder" style="background-color: lightgoldenrodyellow;
+    ">
+        <div class="modal-body">
+              <div class="row">
+                  <div class="col-md-4"><input type="text" name="" id="" placeholder="Name" class="form-control"></div>
+                  <div class="col-md-4"><input type="text" name="" id="" placeholder="Phone No" class="form-control"></div>
+                  <div class="col-md-4"><input type="text" name="" id="" placeholder="Email" class="form-control"></div>
+              </div><hr/>
+
+              <div class="row">
+                <div class="col-md-4">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Veg
+                    </label>
+                </div>
+                <div class="col-md-4 ms-auto">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Non Veg
+                    </label>
+                </div>
+            </div>
+
+             <div class="row justify-content-center mt-3">
+                <label for="colFormLabelSm" class="col-auto col-form-label col-form-label-sm">Total Guest</label>
+                <div class="col-auto">
+                  <input type="number" class="form-control form-control-sm" id="colFormLabelSm" min="1">
+                </div>
+             </div>
+
+             <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="form-group row g-0">
+                        <label for="inputPassword3" class="col-sm-3 col-form-label">Order Date</label>
+                        <div class="col-sm-9">
+                          <input type="date" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row g-0">
+                        <label for="inputPassword3" class="col-sm-3 col-form-label">Order Time</label>
+                        <div class="col-sm-9">
+                          <input type="time" class="form-control" id="inputPassword3" placeholder="Password">
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="form-group row g-0">
+                        <label for="inputPassword3" class="col-sm-3 col-form-label">Address</label>
+                        <div class="col-sm-9">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Address</label>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group row g-0">
+                        <label for="inputPassword3" class="col-sm-2 col-form-label">Note</label>
+                        <div class="col-sm-10">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Message For Chef</label>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+          </div>
+        </form>
+       
+           
+       
+
+        <div class="modal-footer" style="background-color: darkslategrey;">
+          <input class="btn"  type="reset" value="Reset" form="formorder" />
+          <input type="submit" class="btn" value="Place Order" form="formorder" />
+        
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- order model ended here -->
+
+         <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+       <!-----------------------------------Custom JavaScript--------------------------------->
+       <script type="text/JavaScript" src="js/script.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
